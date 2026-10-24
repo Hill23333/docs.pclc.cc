@@ -24,7 +24,10 @@ If you are only fixing documentation, adjusting configuration, or modifying a sm
 
 If you plan to modify business logic, UI behavior, core library functionality, or source generators, you need to complete a local build and perform basic testing before submitting your changes.
 
-During development, please follow the [Technical Guidelines](./guidelines). They include naming conventions, code style, commit message conventions, AI usage requirements, and other rules. This article will not repeat them in detail.
+During development, please follow the [Technical Guidelines](./guidelines) and
+the [Generative Artificial Intelligence Usage Policy](./ai-policy). The Technical Guidelines cover
+naming conventions, code style, and commit message conventions; requirements for AI tool usage are
+set out in the policy. This article will not repeat them in detail.
 
 ## 2. Basic Environment Requirements
 
@@ -268,7 +271,9 @@ During development, please pay attention to the following:
 * Each branch should handle only one issue or one category of changes as much as possible;
 * When modifying existing files, minimize diffs unrelated to the current change;
 * Code related to business logic should be basically tested locally before submission;
-* For code style, naming, commit messages, and AI usage requirements, please refer to the [Technical Guidelines](guidelines.md).
+* For code style, naming, and commit messages, please refer to
+  the [Technical Guidelines](guidelines.md). For AI tool usage requirements, please refer to
+  the [Generative Artificial Intelligence Usage Policy](ai-policy.md).
 
 If you need to add tests, you can look for similar tests in `PCL.Core.Test` as references.
 
